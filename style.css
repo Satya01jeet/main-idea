@@ -174,18 +174,19 @@ html {
     z-index: 1;
   }
   .ideautsav-logo-1-icon {
-    height: 180px;
+    height: 175px;
     width: 900px;
     position: absolute;
     margin: 0 !important;
     margin-top: 100px;
-    top: -261px;
-    left: 10px;
+    top: -171px;
+    left: -45px;
     object-fit: cover;
     z-index: 1;
   }
   .where-creativity-takes {
-    margin: 0;
+    margin: 20px;
+    width: 100%;
     font-weight: 600;
     white-space: pre-wrap;
   }
@@ -204,6 +205,7 @@ html {
   }
   .solve-real-world-problems-with {
     margin: 0;
+    top: 90%;
   }
   .where-creativity-takes-container {
     width: 736px;
