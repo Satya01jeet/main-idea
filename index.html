@@ -13,6 +13,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Nothing You Could Do:wght@400&display=swap"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./">
+    <link rel="stylesheet" href="mobile.css">
+    <!-- <link rel="stylesheet" href="./mobile.css"> -->
   </head>
   <body>
     <div class="first">
@@ -27,13 +31,13 @@
 
         <nav class="header-inner">
           <nav class="ideautsav-parent">
-            <div class="ideautsav">ideaUTSAV</div>
-            <div class="register">REGISTER</div>
+            <div class="texts ideautsav">ideaUTSAV</div>
+            <div class="texts register">REGISTER</div>
             <div class="sponsors-wrapper">
-              <div class="sponsors">SPONSORS</div>
+              <div class="texts sponsors">SPONSORS</div>
             </div>
             <div class="prizes-wrapper">
-              <div class="prizes">PRIZES</div>
+              <div class="texts prizes">PRIZES</div>
             </div>
           </nav>
         </nav>
@@ -197,30 +201,27 @@
         alt=""
         src="./pic/arrow.png"
       />
+      <div class="btns">
 
-      <button class="cta">
-        <b class="register1">Register</b>
+        <button class="btn" type="button">
+          <strong>REGISTER</strong>
+          <div id="container-stars">
+            <div id="stars"></div>
+          </div>
+          
+          <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </button>
+      </div>
+      
+        
       </button>
     </div>
     <div class="third">
       <header class="third-child"></header>
-      <section class="trophies-will-be-container">
-        <p class="trophies-will-be">
-          Trophies will be awarded to all winners, and certificates will be
-          provided to all participants.
-        </p>
-        <p class="in-addition-to-the-college-wid">
-          <span class="in-addition-to">
-            In addition to the college-wide recognition, the
-          </span>
-          <b class="top-10-teams">top 10 teams</b>
-          <span class="will-have-the">
-            will have the opportunity to participate in an external Ideathon
-            without any screening round and compete with teams from all around
-            India.</span
-          >
-        </p>
-      </section>
+      
       <div class="third-inner">
         <div class="frame-div">
           <div class="prizes-container">
@@ -232,6 +233,23 @@
             alt=""
             src="./pic/prize-removebg-preview.png"
           />
+          <section class="trophies-will-be-container">
+            <p class="trophies-will-be">
+              Trophies will be awarded to all winners, and certificates will be
+              provided to all participants.
+            </p>
+            <p class="in-addition-to-the-college-wid">
+              <span class="in-addition-to">
+                In addition to the college-wide recognition, the
+              </span>
+              <b class="top-10-teams">top 10 teams</b>
+              <span class="will-have-the">
+                will have the opportunity to participate in an external Ideathon
+                without any screening round and compete with teams from all around
+                India.</span
+              >
+            </p>
+          </section>
         </div>
       </div>
       <b class="refreshments-to-all">Refreshments to all the participants.</b>
@@ -251,7 +269,15 @@
             src="./pic/hashtaglog.png"
           />
         </div>
-        <div class="frame-item"></div>
+        <div class="vector-wrapper">
+          <img
+            class="frame-child"
+            loading="lazy"
+            alt=""
+            src="./pic/hashtaglog.png"
+          />
+        </div>
+        <!-- <div class="frame-item"></div> -->
         <img
           class="frame-inner"
           loading="lazy"
@@ -260,5 +286,49 @@
         />
       </section>
     </div>
+
+    <footer>
+      <div class="foot1">
+          <div class="foothead">
+              Get Notified of latest updates and news on your email.
+          </div>
+          <div class="inputs">
+              <input type="text" class="footin" placeholder="Email">
+              <button class="footbtn"><i class="footarrow bi bi-arrow-right"></i></button>
+          </div>
+          <div class="links">
+              <div class="social"><i class="bi bi-facebook"></i></div>
+              <div class="social"><i class="bi bi-instagram"></i></div>
+              <div class="social"><i class="bi bi-twitter-x"></i></div>
+              <div class="social"><i class=" yt bi bi-youtube"></i></div>
+              <div class="social socialmob"><i class=" scrollmob scroll bi bi-arrow-up-circle-fill"></i></div>
+          </div>
+      </div>
+      <div class="foot2">
+          <div class="links2">
+              <div class="special">Menu</div>
+              <div>
+                  <div class="spe">Register</div>
+                  <div class="spe">About</div>
+                  <!-- <div class="spe">Contact</div> -->
+                  <div class="spe">Our Sponsers</div>
+              </div>
+              <div class="social2">
+                 
+                  <div><i class="scroll2 bi bi-arrow-up-circle-fill"></i></div>
+              </div>
+          </div>
+          <div class="links3">
+              <div class="special">Support</div>
+              <div>
+                  <div class="spe">Contact Us</div>
+                  <!-- <div class="spe"></div> -->
+                  <div class="spe">Terms</div>
+                  <div class="spe">Privacy</div>
+              </div>
+          </div>
+      </div>
+      <div></div>
+  </footer>
   </body>
 </html>

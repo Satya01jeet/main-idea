@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px){
+    .header-inner{
+        /* display: none; */
+        font-size: 16px;
+    }
+    .texts{
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .ideautsav-logo-1-icon{
+        left: 8px;
+    }
+    .people-1-parent{
+        display: none;
+    }
+    .frame-parent1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -150px;
+    }
+    .hashtag-the-official-container{
+        padding-right: 30px;
+        /* text-align: left; */
+        padding-left: 30px;
+        font-size: 16px;
+    }
+    .frame-group{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 140px;
+        
+    }
+    .participants-will-have-container{
+        font-size: 16px;
+    }
+    .teams-will-be{
+        font-size: 16px;
+    }
+    .is-scheduled-for{
+        font-size: 16px;
+    }
+    .first-wrapper{
+        /* margin-top: -200px; */
+    }
+    .btns{
+        margin-top: -300px;
+    }
+
+    .you-can-register-container{
+        /* margin-left: 00px; */
+    }
+    .third{
+        margin-top: -50vh;
+    }
+    .trophies-will-be-container{
+        font-size: 16px;
+        /* width: 900px; */
+    }
+    .third-inner{
+        padding: 10px;
+    }
+
+}
